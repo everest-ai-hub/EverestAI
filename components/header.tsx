@@ -44,7 +44,7 @@ export function Header() {
 
           <Link href="/contact">
             <Button className="bg-primary text-primary-foreground hover:bg-primary/90 font-sans font-semibold px-8 py-3 text-sm tracking-wide uppercase premium-hover border border-primary/20">
-              Consultation
+              
             </Button>
           </Link>
         </div>
