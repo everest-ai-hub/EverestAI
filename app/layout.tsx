@@ -1,6 +1,8 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Montserrat, Open_Sans } from "next/font/google"
+import { constructMetadata } from "@/lib/metadata"
+import { RootClientWrapper } from "@/components/root-client-wrapper"
 import "./globals.css"
 
 const montserrat = Montserrat({
@@ -17,11 +19,7 @@ const openSans = Open_Sans({
   weight: ["300", "400", "500", "600", "700"],
 })
 
-export const metadata: Metadata = {
-  title: "Everest AI - Premium Enterprise AI Solutions",
-  description: "Luxury AI transformation solutions for discerning enterprises",
-  generator: "v0.app",
-}
+export const metadata = constructMetadata()
 
 export default function RootLayout({
   children,
@@ -29,8 +27,13 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${montserrat.variable} ${openSans.variable} antialiased`}>
-      <body>{children}</body>
+    <html lang="en" className={`${montserrat.variable} ${openSans.variable} antialiased`} suppressHydrationWarning>
+      <head />
+      <body className="antialiased">
+        <RootClientWrapper>
+          {children}
+        </RootClientWrapper>
+      </body>
     </html>
   )
 }

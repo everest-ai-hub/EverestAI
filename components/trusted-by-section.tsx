@@ -1,11 +1,9 @@
 export function TrustedBySection() {
   const companies = [
-    { name: "Goldman Sachs", logo: "/placeholder.svg?height=40&width=140" },
-    { name: "McKinsey & Company", logo: "/placeholder.svg?height=40&width=160" },
-    { name: "Microsoft", logo: "/placeholder.svg?height=40&width=120" },
-    { name: "JPMorgan Chase", logo: "/placeholder.svg?height=40&width=150" },
-    { name: "Deloitte", logo: "/placeholder.svg?height=40&width=100" },
-    { name: "Boston Consulting", logo: "/placeholder.svg?height=40&width=140" },
+    { name: "Goldman Sachs", logo: "./Nimble.jpg" },
+    { name: "McKinsey & Company", logo: "./Nimble.jpg" },
+    { name: "Microsoft", logo: "./Nimble.jpg" },
+ 
   ]
 
   return (
@@ -22,16 +20,16 @@ export function TrustedBySection() {
             <span className="text-gold font-normal"> innovative enterprises</span>
           </h2>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
+          <div className="flex  lg:grid-cols-6 gap-8 lg:gap-12 items-center justify-center">
             {companies.map((company, index) => (
               <div
                 key={index}
-                className="group flex items-center justify-center p-6 rounded-xl hover:bg-slate-50 transition-all duration-300"
+                className="group flex items-center justify-center p-8 rounded-xl hover:bg-slate-50/80 transition-all duration-300 hover:shadow-sm"
               >
                 <img
                   src={company.logo || "/placeholder.svg"}
                   alt={`${company.name} logo`}
-                  className="h-10 object-contain opacity-60 group-hover:opacity-100 transition-opacity duration-300 filter grayscale group-hover:grayscale-0"
+                  className="h-30 md:h-40 w-auto object-contain opacity-60 group-hover:opacity-100 transition-opacity duration-300 filter grayscale group-hover:grayscale-0"
                 />
               </div>
             ))}
