@@ -6,25 +6,25 @@ export function TeamSection() {
       name: "Dr. Sarah Chen",
       role: "Chief Executive Officer",
       bio: "Former AI research director at Google with 15+ years in machine learning and enterprise AI solutions.",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/placeholder-user.jpg",
     },
     {
       name: "Michael Rodriguez",
       role: "Chief Technology Officer",
       bio: "Ex-Microsoft principal engineer specializing in scalable AI infrastructure and cloud computing platforms.",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/placeholder-user.jpg",
     },
     {
       name: "Dr. Priya Patel",
       role: "Head of AI Research",
       bio: "PhD in Computer Science from MIT, published researcher in neural networks and natural language processing.",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/placeholder-user.jpg",
     },
     {
       name: "James Thompson",
       role: "VP of Enterprise Solutions",
       bio: "20+ years in enterprise software with deep expertise in digital transformation and client success.",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/placeholder-user.jpg",
     },
   ]
 

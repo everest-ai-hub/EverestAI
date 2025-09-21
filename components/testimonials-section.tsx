@@ -12,7 +12,7 @@ const testimonials = [
     position: "CTO",
     company: "TechFlow Solutions",
     rating: 5,
-    avatar: "/professional-woman-glasses.png",
+    avatar: "/placeholder-590kf.png",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const testimonials = [
     position: "Head of Operations",
     company: "Global Retail Corp",
     rating: 5,
-    avatar: "/professional-man-suit.png",
+    avatar: "/placeholder-590kf.png",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const testimonials = [
     position: "VP of Supply Chain",
     company: "Manufacturing Plus",
     rating: 5,
-    avatar: "/professional-woman-doctor.png",
+    avatar: "/placeholder-590kf.png",
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const testimonials = [
     position: "Chief Risk Officer",
     company: "Premier Financial",
     rating: 5,
-    avatar: "/professional-bearded-man.png",
+    avatar: "/placeholder-590kf.png",
   },
   {
     id: 5,

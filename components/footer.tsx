@@ -2,9 +2,9 @@ import Link from "next/link"
 
 export function Footer() {
   return (
-    <footer className="bg-slate-900 text-white py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+    <footer className="bg-gray-900 text-white py-12">
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
             <div className="text-2xl font-serif font-bold mb-4">
@@ -98,52 +98,12 @@ export function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/contact" className="text-white/80 hover:text-accent transition-colors">
-                  Get in Touch
-                </Link>
-              </li>
-              <li>
-                <a href="mailto:info@everestai.com" className="text-white/80 hover:text-accent transition-colors">
-                  info@everestai.com
-                </a>
-              </li>
-              <li>
-                <a href="tel:+15551234567" className="text-white/80 hover:text-accent transition-colors">
-                  +1 (555) 123-4567
-                </a>
-              </li>
-              <li>
-                <Link href="/contact" className="text-white/80 hover:text-accent transition-colors">
-                  Global Offices
-                </Link>
-              </li>
-              <li>
-                <a href="#" className="text-white/80 hover:text-accent transition-colors">
-                  Support Center
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Bottom Bar */}
-        <div className="border-t border-white/10 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="text-white/60 text-sm mb-4 md:mb-0">© 2024 Everest AI. All rights reserved.</div>
-            <div className="flex space-x-6 text-sm">
-              <a href="#" className="text-white/60 hover:text-accent transition-colors">
-                Privacy Policy
+            <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
+            <p className="mb-2">
+              <a href="mailto:contact@everestaihub.io" className="hover:text-blue-400 transition-colors">
+                contact@everestaihub.io
               </a>
-              <a href="#" className="text-white/60 hover:text-accent transition-colors">
-                Terms of Service
-              </a>
-              <a href="#" className="text-white/60 hover:text-accent transition-colors">
-                Cookie Policy
-              </a>
-            </div>
+            </p>
           </div>
         </div>
       </div>
