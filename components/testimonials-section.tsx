@@ -48,7 +48,7 @@ const testimonials = [
     id: 5,
     quote:
       "Their healthcare AI solutions have improved patient outcomes dramatically. Diagnostic accuracy increased by 35% and treatment planning time reduced by 60%.",
-    author: "Dr.  Park",
+    author: "name Here",
     position: "Medical Director",
     company: "saas company",
     rating: 5,
