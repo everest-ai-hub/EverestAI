@@ -46,7 +46,7 @@ export function ServicesHeroSection() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-20 fade-in-up-delay-2">
             <div className="text-center group">
               <div className="text-5xl font-serif font-black text-accent mb-3 group-hover:scale-105 transition-transform duration-300">
-                500+
+                45+
               </div>
               <div className="text-white/70 font-sans font-light text-sm tracking-wide uppercase">
                 Enterprise Projects
