@@ -35,6 +35,8 @@ export function Header() {
               className="text-3xl font-serif font-black text-primary hover:text-primary/80 transition-all duration-300 tracking-tight"
             >
               EVEREST<span className="text-accent font-light">AI</span>
+                <span className="text-[0.6em] leading-[1] mt-1 font-normal">hub</span>
+
             </Link>
           </div>
 

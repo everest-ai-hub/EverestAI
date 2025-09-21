@@ -37,11 +37,11 @@ export function TrustedBySection() {
 
           <div className="mt-16 grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-display font-light text-navy mb-2">500+</div>
+              <div className="text-4xl font-display font-light text-navy mb-2">45+</div>
               <div className="text-slate-600 font-medium">Enterprise Clients</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-display font-light text-navy mb-2">$2.4B+</div>
+              <div className="text-4xl font-display font-light text-navy mb-2">$30M+</div>
               <div className="text-slate-600 font-medium">Value Generated</div>
             </div>
             <div className="text-center">

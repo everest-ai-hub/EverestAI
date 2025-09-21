@@ -37,12 +37,12 @@ export function HeroSection() {
             Premium Enterprise AI Transformation
           </div>
 
-          <h1 className="text-6xl md:text-8xl font-serif font-black text-white mb-8 leading-[0.9] tracking-tight fade-in-up-delay-1">
+          <h1 className="text-4xl md:text-6xl font-serif font-black text-white mb-6 leading-[1.1] tracking-tight fade-in-up-delay-1">
             Exceptional AI Solutions for
             <span className="block text-accent font-light italic">Visionary Enterprises</span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-white/85 mb-12 max-w-4xl mx-auto leading-relaxed font-sans font-light fade-in-up-delay-2">
+          <p className="text-lg md:text-xl text-white/85 mb-10 max-w-3xl mx-auto leading-relaxed font-sans font-light fade-in-up-delay-2">
             We craft bespoke artificial intelligence solutions that elevate your enterprise to unprecedented levels of
             operational excellence, strategic insight, and competitive advantage.
           </p>
@@ -62,7 +62,7 @@ export function HeroSection() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-20 fade-in-up-delay-2">
             <div className="text-center group">
               <div className="text-5xl font-serif font-black text-accent mb-3 group-hover:scale-105 transition-transform duration-300">
-                500+
+                45+
               </div>
               <div className="text-white/70 font-sans font-light text-sm tracking-wide uppercase">
                 AI Implementations
@@ -78,7 +78,7 @@ export function HeroSection() {
             </div>
             <div className="text-center group">
               <div className="text-5xl font-serif font-black text-accent mb-3 group-hover:scale-105 transition-transform duration-300">
-                $2.5B+
+                $30M+
               </div>
               <div className="text-white/70 font-sans font-light text-sm tracking-wide uppercase">Value Generated</div>
             </div>
