@@ -15,7 +15,7 @@ export function HeroSection() {
           <source src="/Vid.mp4" type="video/mp4" />
         </video>
         {/* Dark overlay for better text visibility */}
-        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="absolute inset-0 bg-black/10"></div>
       </div>
 
       {/* Animated gradients */}
