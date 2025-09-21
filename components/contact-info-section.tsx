@@ -59,11 +59,11 @@ export function ContactInfoSection() {
               <h3 className="text-xl font-semibold text-primary mb-4">Phone Support</h3>
               <div className="space-y-2">
                 <div className="text-muted-foreground">US & Canada</div>
-                <div className="text-lg font-medium">+1 (555) 123-4567</div>
+                <div className="text-lg font-medium">Number Here</div>
               </div>
               <div className="space-y-2 mt-4">
                 <div className="text-muted-foreground">International</div>
-                <div className="text-lg font-medium">+44 20 7123 4567</div>
+                <div className="text-lg font-medium">Number Here</div>
               </div>
             </div>
 
