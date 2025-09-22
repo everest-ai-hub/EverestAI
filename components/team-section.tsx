@@ -16,7 +16,7 @@ export function TeamSection() {
   //   },
   //   {
   //     name: "Dr. Priya Patel",
-  //     role: "Head of AI Research",
+  //     role: "Head of AI Researchh  ",
   //     bio: "PhD in Computer Science from MIT, published researcher in neural networks and natural language processing.",
   //     image: "/placeholder-user.jpg",
   //   },
